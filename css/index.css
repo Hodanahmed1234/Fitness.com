@@ -1,0 +1,491 @@
+@import url('https://fonts.googleapis.com/css2?family=Alegreya:ital,wght@0,400..900;1,400..900&family=Karla:ital,wght@0,200..800;1,200..800&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Noto+Sans:ital,wght@0,100..900;1,100..900&family=Playwrite+AU+VIC+Guides&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html{
+    background: rgba(202, 202, 220, 0.746);
+}
+#home{
+    background-image: linear-gradient(rgba(0,0,0,.7), rgba(0,0,0,.7)), url("../images/contactbackground.jpg");
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    height: 100vh;
+}
+header{
+    background: white;
+    position: fixed;
+    left: 0;
+    right: 0;
+    z-index: 1000;
+}
+header .logo{
+    width: 200px;
+    height: 80px;
+}
+.logo img{
+    width: 200px;
+    position: relative;
+    left: 1rem;
+    top: -1rem;
+}
+.nav_bar{
+    position: relative;
+    left: 26rem;
+    top: -2rem;
+}
+.nav_bar ul li{
+    padding-left: 30px;
+    font-size: 22px;
+    display: inline-block;
+}
+.nav_bar ul li a{
+    color: black;
+    text-decoration: none;
+    font-family: sans-serif;
+    transition: .3s;
+}
+.nav_bar ul li a:hover{
+    color: rgb(147, 6, 91);
+}
+.button{
+    position: relative;
+    left: 64rem;
+    top: -3rem;
+}
+.button a{
+    padding: 13px 60px;
+    font-family: sans-serif;
+    font-size: 24px;
+    text-decoration: none;
+    color: black;
+    border-radius: 10px;
+    background: linear-gradient(45deg, rgb(233, 60, 230), white);
+    transition: .3s;
+}
+.button a:hover{
+    color: white;
+    background: linear-gradient(45deg, white, rgb(233, 60, 230));
+}
+.container{
+    position: absolute;
+}
+.container_text{
+    position: relative;
+    bottom: 2rem;
+}
+.container_text h1{
+    font-family: Alegreya;
+    position: relative;
+    bottom: -22rem;
+    left: 30rem;
+    color: rgb(233, 60, 230);
+    text-transform: uppercase;
+    font-size: 60px;
+}
+.container_text p{
+    position: relative;
+    bottom: 20rem;
+    left: 5rem;
+    line-height: 1.6;
+    font-size: 25px;
+    width: 700px;
+    color: rgb(60, 60, 233);
+}
+.container_button a{
+    position: relative;
+    bottom: 15rem;
+    left: 5rem;
+    background: rgb(60, 60, 233);
+    color: white;
+    padding: 17px 45px;
+    font-size: 20px;
+    text-decoration: none;
+    font-family: sans-serif;
+    text-transform: capitalize;
+    border-radius: 8px;
+    transition: .3s;
+}
+.container_button a:hover{
+    color: rgb(60, 60, 233);
+    background: white;
+}
+
+/* About Us*/
+ 
+#about{
+    height: 100vh;
+    position: absolute;
+    top: 38rem;
+}
+#about h1{
+    position: relative;
+    bottom: -5rem;
+    left: 50rem;
+    font-size: 55px;
+    font-family: Alegreya;
+}
+.about_image img{
+    width: 400px;
+    height: 500px;
+    position: relative;
+    left: 2rem;
+}
+.about_text p{
+    font-size: 25px;
+    line-height: 2;
+    width: 460px;
+    position: relative;
+    left: 45rem;
+    bottom: 25rem;
+}
+.about_button a{
+    font-family: sans-serif;
+    color: white;
+    background: blue;
+    position: relative;
+    bottom: 22rem;
+    left: 45.2rem;
+    padding: 16px 55px;
+    text-decoration: none;
+    font-size: 20px;
+    border-radius: 5px;
+    transition: .3s;
+}
+.about_button a:hover{
+    color: rgb(182, 182, 238);
+}
+
+.icons{
+    height: 250px;
+    position: absolute;
+    top: 80rem;
+    background: blue;
+    width: 100%;
+}
+.icon_image{
+    display: flex;
+    justify-content: space-between;
+    padding: 0 30px;
+}
+.icon_image img{
+    width: 140px;
+    height: 140px;
+    padding-left: 30px;
+    padding-top: 20px;
+}
+.icon_image .img_text h2{
+    font-size: 25px;
+    position: relative;
+    bottom: .5rem;
+    right: 1.5rem;
+    color: white;
+}
+.icon_image .img_text{
+    font-size: 19px;
+    color: black;
+    width: 230px;
+    text-align: center;
+    position: relative;
+    top: .5rem;
+}
+.icon_image .img_text p{
+    position:relative;
+    bottom: .5rem;
+}
+
+#classes{
+    height: 80vh;
+    position: absolute;
+    top: 120rem;
+}
+#classes h1{
+    font-size: 60px;
+    position: relative;
+    left: 30rem;
+    bottom: 16rem;
+}
+#classes p{
+    font-size: 35px;
+    text-align: center;
+    position: relative;
+    left: 10rem;
+    bottom: 10rem;
+    width: 1000px;
+}
+#classes .class_button a{
+    background: blue;
+    padding: 20px 50px;
+    border-radius: 10px;
+    color: white;
+    text-decoration: none;
+    font-family: sans-serif;
+    font-size: 20px;
+    position: relative;
+    left: 33rem;
+    transition: .3s;
+    cursor: pointer;
+}
+#classes .class_button a:hover{
+    color: blue;
+    background: white;
+    font-weight: 600;
+}
+
+
+#trainers{
+    position: absolute;
+    top: 155rem;
+}
+#trainers h1{
+    font-family: Alegreya;
+    font-size: 60px;
+    position: relative;
+    left: 26rem;
+    bottom: 2rem;
+}
+.trainers{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 30px;
+    position: relative;
+    left: 70px;
+}
+
+.images_trainers img{
+    width: 350px;
+    height: 350px;
+}
+.images_trainers .text{
+    background: whitesmoke;
+    height: 12vh;
+    width: 350px;
+    margin-top: -3px;
+    padding-top: 15px;
+    scroll-behavior: smooth;
+}
+.images_trainers h4{
+    font-size: 25px;
+    font-family: sans-serif;
+    margin-left: 75px;
+}
+.images_trainers:hover h4{
+    transform: translateY(-7px);
+    background: whitesmoke;
+}
+.images_trainers p{
+    margin-top: 10px;
+    font-size: 20px;
+    text-align: center;
+    padding: 0 2px;
+    opacity: 0;
+    transition:.5s;
+    transform: initial;
+}
+.images_trainers:hover p{
+    background: whitesmoke;
+    height: 23vh;
+    opacity: 1;
+    transform: translateY(-7px)
+}
+.images_trainers .trainer_icon{
+    font-size: 25px;
+    position: relative;
+    bottom: 3rem;
+    left: -.5rem;
+    opacity: 0;
+}
+.images_trainers .trainer_icon i{
+    padding-left: 45px;
+    cursor: pointer;
+}
+.images_trainers:hover .trainer_icon{
+    position: relative;
+    top: 5rem;
+    transform: translateY(-7px);
+    color: blue;
+    opacity: 1;
+}
+
+
+
+.slider{
+    background: blue;
+    padding: 2rem;
+    position: relative;
+    top: 180rem;
+}
+.slider h1{
+    position: relative;
+    bottom: 2rem;
+    left: 40%;
+    font-size: 60px;
+    font-family: Alegreya;
+}
+.wrapper{
+    position: relative;
+    max-width: 48rem;
+    margin: 0 auto;
+}
+.wrapper_holder{
+    display: flex;
+    aspect-ratio: 16 / 9;
+    overflow-x: auto;
+    scroll-snap-type: x mandatory;
+    scroll-behavior: smooth;
+}
+.wrapper_holder .image_holder{
+    flex: 1 0 100%;
+    scroll-snap-align: start;
+    object-fit: cover;
+}
+.image_holder p{
+    font-size: 25px;
+    text-align: center;
+}
+.image_holder img{
+    border-radius: 50%;
+    position: relative;
+    left: 17rem;
+    top: 2rem;
+}
+.slider_nav {
+    display: flex;
+    column-gap: 1rem;
+    position: absolute;
+    left: 50%;
+    transform: translateY(-50%);
+}
+.slider_nav a{
+    width: 1rem;
+    height: 1rem;
+    border-radius: 50%;
+    background: black;
+    opacity: 0.75;
+    transition: opacity ease 250ms;
+}
+.slider_nav a:hover{
+    opacity: 1;
+}
+
+
+.contact .contact_content{
+    background: white;
+    width: 1100px;
+    height: 95vh;
+    position: relative;
+    top: 190rem;
+    left: 5rem;
+    display: flex;
+    justify-content: space-evenly;
+}
+.contact .contact_content form{
+    padding: 100px 150px;
+    margin-left: -4rem;
+}
+.contact .contact_content form input{
+    color: blue;
+    display: flex;
+    width: 450px;
+    height: 50px;
+    margin-top: 1rem;
+    padding-left: 1rem;
+}
+.contact .contact_content .contact_image img{
+    width: 400px;
+    height: 400px;
+    position: relative;
+    right: 7rem;
+    top: 5rem;
+}
+.contact .contact_button{
+    position: absolute;
+    top: 298rem;
+    right: 50rem;
+}
+.contact .contact_button .button{
+    background: blue;
+    padding: 13px 52px;
+    border-radius: 5px;
+    font-size: 28px;
+    text-decoration: none;
+    color: white;
+    font-family: Alegreya;
+    cursor: pointer;
+}
+.contact .contact_button .button:hover{
+    color: blue;
+    background: rgb(154, 154, 226);
+}
+
+#register{
+    position: relative;
+    top: 200rem;
+    background: linear-gradient(rgba(0,0,0,.5), rgba(0,0,0,.5)), url("../images/background2.jpg");
+    background-position: center;
+    background-size: cover;
+    color: white;
+    height: 100vh;
+}
+.register{
+    display: flex;
+    justify-content: space-around;
+}
+.register_text{
+    margin-left: -45rem;
+    margin-top: 3rem;
+    font-family: sans-serif;
+}
+.register_text h1{
+    font-size: 50px;
+    font-family: Alegreya;
+    margin-left: 3rem;
+}
+.register_text h4{
+    font-size: 28px;
+    padding-top: 1rem;
+}
+.register_address{
+    display: flex;
+    padding-left: 8rem;
+    position: relative;
+    left: 30rem;
+    top: 12rem;
+    font-size: 35px;
+    background: black;
+    color: rgb(60, 60, 233);
+    width: 782px;
+    height: 20vh;
+}
+.register_address h5{
+    padding-top: 2rem;
+    padding-left: -5rem;
+}
+.register_address p{
+    padding-left: 7rem;
+    padding-top: 2rem;
+}
+.button_register a{
+    background: rgb(60, 60, 233);
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+    font-family: sans-serif;
+    padding: 20px 50px;
+    position: absolute;
+    top: 18rem;
+    left: 7rem;
+    border-radius: 8px;
+}
+.end{
+    position: relative;
+    top: 198rem;
+    display: flex;
+    justify-content: space-around;
+    font-size: 30px;
+    font-family: sans-serif;
+    color: white;
+}
+

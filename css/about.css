@@ -1,0 +1,284 @@
+@import url('https://fonts.googleapis.com/css2?family=Alegreya:ital,wght@0,400..900;1,400..900&family=Karla:ital,wght@0,200..800;1,200..800&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Noto+Sans:ital,wght@0,100..900;1,100..900&family=Playwrite+AU+VIC+Guides&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+#home{
+    background-image: linear-gradient(rgba(0,0,0,.7), rgba(0,0,0,.7)), url("../images/contactbackground.jpg");
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    height: 100vh;
+}
+header{
+    background: white;
+    position: fixed;
+    left: 0;
+    right: 0;
+    z-index: 1000;
+}
+header .logo{
+    width: 200px;
+    height: 80px;
+}
+.logo img{
+    width: 200px;
+    position: relative;
+    left: 1rem;
+    top: -1rem;
+}
+.nav_bar{
+    position: relative;
+    left: 26rem;
+    top: -2rem;
+}
+.nav_bar ul li{
+    padding-left: 30px;
+    font-size: 22px;
+    display: inline-block;
+}
+.nav_bar ul li a{
+    color: black;
+    text-decoration: none;
+    font-family: sans-serif;
+    transition: .3s;
+}
+.nav_bar ul li a:hover{
+    color: rgb(147, 6, 91);
+}
+.button{
+    position: relative;
+    left: 64rem;
+    top: -3rem;
+}
+.button a{
+    padding: 13px 60px;
+    font-family: sans-serif;
+    font-size: 24px;
+    text-decoration: none;
+    color: black;
+    border-radius: 10px;
+    background: linear-gradient(45deg, rgb(233, 60, 230), white);
+    transition: .3s;
+}
+.button a:hover{
+    color: white;
+    background: linear-gradient(45deg, white, rgb(233, 60, 230));
+}
+.container{
+    position: absolute;
+}
+.container_text{
+    position: relative;
+    bottom: 2rem;
+}
+.container_text h1{
+    font-family: Alegreya;
+    position: relative;
+    bottom: -22rem;
+    left: 30rem;
+    color: rgb(233, 60, 230);
+    text-transform: uppercase;
+    font-size: 60px;
+}
+
+
+
+#about{
+    height: 100vh;
+    position: absolute;
+    top: 38rem;
+}
+#about h1{
+    position: relative;
+    bottom: -5rem;
+    left: 50rem;
+    font-size: 55px;
+    font-family: Alegreya;
+}
+.about_video video{
+    width: 600px;
+    height: 600px;
+    position: relative;
+    left: 2rem;
+}
+.about_text p{
+    font-size: 25px;
+    line-height: 2;
+    width: 460px;
+    position: relative;
+    left: 45rem;
+    bottom: 30rem;
+}
+.about_text h6{
+    font-size: 24px;
+    position: relative;
+    bottom: 28rem;
+    left: 45rem;
+    font-weight: 200;
+}
+
+.information {
+    position: absolute;
+    top: 84rem;
+    background: blue;
+    display: flex;
+    justify-content: space-between;
+    font-size: 40px;
+    width: 100%;
+    height: 40vh;
+    padding: 0 20px;
+}
+.info{
+    margin-top: 2rem;
+}
+.par{
+    font-size: 27px;
+    margin-left: -2rem;
+    margin-top: 1rem;
+}
+.par1{
+    font-size: 27px;
+    margin-top: 1rem;
+    margin-left: 2rem;
+}
+.par2{
+    margin-left: 3rem;
+    margin-top: 1rem;
+    font-size: 27px;
+}
+.par3{
+    font-size: 27px;
+    margin-top: 1rem;
+    margin-left: 1rem;
+}
+.info p{
+    position: relative;
+    margin-left: 1rem;
+}
+
+.gym_award{
+    position: absolute;
+    top: 108rem;
+    left: 40%;
+}
+.gym_award h1{
+    font-size: 45px;
+    position: relative;
+    bottom: 2rem;
+    left: -2rem;
+    color: blue;
+}
+.gym_award p{
+    width: 700px;
+    font-size: 25px;
+    text-align: center;
+    position: relative;
+    right: 12rem;
+}
+
+.background{
+    background-image: linear-gradient(rgba(0,0,0,.7), rgba(0,0,0,.7)), url("../images/about\ background2.jpg");
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    top: 100rem;
+    height: 100vh;
+}
+.background p{
+    position: relative;
+    top: 9rem;
+    left: 3rem;
+    width: 600px;
+    color: white;
+    font-size: 35px;
+    font-family: sans-serif;
+}
+.background_button{
+    position: absolute;
+    top: 20rem;
+    left: 3rem;
+    background: white;
+    padding: 20px 45px;
+    font-size: 20px;
+    font-weight: 600;
+    border-radius: 10px;
+}
+.background_button a{
+    text-decoration: none;
+    color: black;
+    font-family: sans-serif;
+}
+
+#register{
+    position: relative;
+    top: 120rem;
+    background: linear-gradient(rgba(0,0,0,.5), rgba(0,0,0,.5)), url("../images/background2.jpg");
+    background-position: center;
+    background-size: cover;
+    color: white;
+    height: 100vh;
+}
+.register{
+    display: flex;
+    justify-content: space-around;
+}
+.register_text{
+    margin-left: -45rem;
+    margin-top: 3rem;
+    font-family: sans-serif;
+}
+.register_text h1{
+    font-size: 50px;
+    font-family: Alegreya;
+    margin-left: 3rem;
+}
+.register_text h4{
+    font-size: 28px;
+    padding-top: 1rem;
+}
+.register_address{
+    display: flex;
+    padding-left: 8rem;
+    position: relative;
+    left: 30rem;
+    top: 12rem;
+    font-size: 35px;
+    background: black;
+    color: rgb(60, 60, 233);
+    width: 782px;
+    height: 20vh;
+}
+.register_address h5{
+    padding-top: 2rem;
+    padding-left: -5rem;
+}
+.register_address p{
+    padding-left: 7rem;
+    padding-top: 2rem;
+}
+.button_register a{
+    background: rgb(60, 60, 233);
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+    font-family: sans-serif;
+    padding: 20px 50px;
+    position: absolute;
+    top: 18rem;
+    left: 7rem;
+    border-radius: 8px;
+}
+.end{
+    position: relative;
+    top: 198rem;
+    display: flex;
+    justify-content: space-around;
+    font-size: 30px;
+    font-family: sans-serif;
+    color: white;
+}
+
+
+
